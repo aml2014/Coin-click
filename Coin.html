@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur</title>
+</head>
+<style>
+  #coin{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  .detalhe1{
+    width: 45px;
+    height: 125px;
+    border-radius: 100px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 85px;
+  }
+  html{
+    background-color: #CCC;
+  }
+  #compras{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(48, 48, 48);
+    padding: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+  }
+
+  h2, h1{
+    color: white;
+  }
+
+
+</style>
+<body>
+  
+  <div id="coin" onclick="grana()">
+    <div class="detalhe1"></div>
+  </div>
+  <h1 id="Moedas">Moedas: 0</h1>
+  <h2 id="se">Por segundo: 0</h2>
+  <div id="compras">
+    <button onclick="c1()">Comprar</button>
+    <h2 id="a">Acada clicks ganhe 2 moedas</h2>
+    <br>
+    <h1 id="v1">Valor: 10</h1>
+    <br><br><br><br><br><br>
+    <button onclick="c2()">Comprar</button>
+    <h2 id="b">Acada 1 segundo ganhe 1 moeda</h2>
+    <br>
+    <h1 id="v2">Valor: 100</h1>
+
+
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
